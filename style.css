@@ -2,6 +2,10 @@
     margin: 0;
     padding: 0;
 }
+.logo{
+
+    align-items: center;
+}
 ul li{
     list-style: none;
    
@@ -9,23 +13,26 @@ ul li{
 ul{
     display: flex;
     gap: 30px;
+    align-items: center;
     
 }
 nav{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    align-items: center;
+    
+    
     /* margin: 5px 0px 5px 15%; */
-    background-color: rgb(255, 255, 255);
+    background-color: whitesmoke;
     padding:20px 5px 20px 10% ;
 }
-.lists{
-    display: flex;
-    gap: 30px;
-}
-.lists button{
-    padding:20px 10px 20px 10px ;
-    background-color: green;
-    color: antiquewhite;
-    border: none;
-    border-radius: 5px;
+.btn{
+padding: 15px 25px;
+background-color: #388e3b;
+border-radius: 7px;
+border: none;
+color: antiquewhite;
+
+
+
 }

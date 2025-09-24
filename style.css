@@ -72,10 +72,10 @@ position: sticky;
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10vw;
+    gap:10vw;
     background-color: rgb(245, 241, 241);
-    width: 100vw;
-    height: 100vh;
+flex-wrap: wrap;
+
 
 }
 
@@ -87,6 +87,7 @@ position: sticky;
     align-items: center;
     margin-top: 4vw;
     margin-bottom: 4vw;
+    
 }
 
 .fh {
@@ -95,8 +96,8 @@ position: sticky;
     font-weight: 600;
     font-style: semi-bold;
     color: #4D4D4D;
-    font-size: 4vw;
-    line-height: 4.5vw;
+    font-size: 4em;
+    line-height: 1em;
 
 }
 
@@ -105,16 +106,16 @@ position: sticky;
     font-family: 'inter';
     font-weight: 600;
     font-style: semi-bold;
-    font-size: 4vw;
-    line-height: 4.5vw;
+    font-size: 4em;
+    line-height: 1.5em;
 }
 
 .content-para {
     color: #717171;
-    font-size: 1vw;
+    font-size: 1em;
     font-family: 'inter';
     font-weight: 400;
-    line-height: 4vw;
+    line-height: 2em;
 }
 
 .herobtn {
@@ -131,7 +132,7 @@ position: sticky;
 }
 
 .hero-img img {
-    width: 25vw;
+   width:25vw ; 
     height: auto;
     margin-top: 6vw;
     margin-right: 2vw;

@@ -211,12 +211,13 @@ margin: 2vw auto;
 
 .local-div {
     margin-top: 10vw;
+    padding: 1vw;
 }
 
 .sixh1 {
     color: #3a3939;
     font-size:4em;
-    line-height: 5vh;
+    line-height: 6vw;
     font-family: inter;
     font-weight: 500;
 }
@@ -226,12 +227,13 @@ margin: 2vw auto;
     font-size: 3.6em;
     font-family: inter;
     font-weight: 500;
+    line-height: 6vw;
 }
 .local-para{
     color: #4D4D4D;
     font-family: inter;
     font-size: 1.3em; 
-    margin-top: 0px;
+    margin-top: 10px;
     
 }
 .flex-div {
@@ -311,6 +313,7 @@ font-size: 1.5em;
     display: flex;
     justify-content: space-around;
     gap: 10vw;
+    padding: 5vw;
 
 
 
@@ -614,7 +617,7 @@ flex-direction: column;
     color: #3a3939;
     font-size:3em;
     line-height: 6vh;
-    font-family: inter;
+    font-family: inter;h
     font-weight: 500;
 }
 .sixh2 {
@@ -705,9 +708,9 @@ font-size: 1.5em;
 .last-main-div {
     flex-direction: column;
     align-items: center;
-    gap:3vw;
-
-
+    gap:2vw;
+    
+    justify-content: center;
 }
 .div1{
 

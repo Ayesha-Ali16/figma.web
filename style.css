@@ -45,11 +45,12 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-position: sticky;
-
-    /* margin: 5px 0px 5px 15%; */
+     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.20);
     background-color: whitesmoke;
     padding: 20px 5px 20px 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
 }
 
 .btn {
@@ -465,7 +466,6 @@ padding: 2vw;
 
 .last-logo {
     display: flex;
-
 }
 
 .last-logo img {
